@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/course/couse.iml" filepath="$PROJECT_DIR$/course/couse.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/devdojo-microservice.iml" filepath="$PROJECT_DIR$/.idea/devdojo-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discovery/discovery.iml" filepath="$PROJECT_DIR$/discovery/discovery.iml" />
     </modules>
   </component>
 </project>
