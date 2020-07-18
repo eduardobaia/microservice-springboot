@@ -29,6 +29,12 @@
 
     <dependencies>
 
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+
 <!--        <dependency>-->
 <!--            <groupId>academy.devdojo.youtube</groupId>-->
 <!--            <artifactId>core</artifactId>-->
