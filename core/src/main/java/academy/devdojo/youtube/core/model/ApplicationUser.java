@@ -25,10 +25,21 @@ public class ApplicationUser implements AbstractEntity{
     @NotNull(message = "The field password is mandatory")
     @Column(nullable = false)
     private String password;
+    @NotNull(message = "The field roles is mandatory")
+    @Column(nullable = false)
+    private String role ="USER";
+
 
 
     @Override
     public Long getid() {
         return this.id;
+    }
+
+    public ApplicationUser(@NotNull ApplicationUser applicationUser ) {
+        this.id = applicationUser.getid();
+        this.username = applicationUser.getUsername();
+        this.password = applicationUser.getPassword();
+        this.role = applicationUser.getRole();
     }
 }

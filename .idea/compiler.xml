@@ -8,12 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="core" />
-        <module name="discovery" />
         <module name="couse" />
+        <module name="auth" />
+        <module name="discovery" />
         <module name="gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="auth" target="11" />
       <module name="core" target="1.8" />
       <module name="couse" target="11" />
       <module name="devdojo-microservice" target="1.8" />
@@ -23,6 +25,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth" options="-parameters" />
       <module name="core" options="-parameters" />
       <module name="couse" options="-parameters" />
       <module name="discovery" options="-parameters" />
