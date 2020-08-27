@@ -20,7 +20,7 @@ import java.util.Collection;
 @Slf4j
 public class UserDetailsServiceImpl implements UserDetailsService {
 
-    private ApplicationUserRepository applicationUserRepository;
+    private final ApplicationUserRepository applicationUserRepository;
 
     @Override
     public UserDetails loadUserByUsername(String username)  {
